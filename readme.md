@@ -13,6 +13,7 @@ This project contains a Jupyter notebook and several Python files.
   
 To set up your python environment to run the code in this repository, follow the instructions below.
 
+#### Option A:
 1. Create (and activate) a new environment with Python 3.6.
 	```
 	conda create --name nlpnd python=3.6
@@ -30,7 +31,8 @@ To set up your python environment to run the code in this repository, follow the
 	python -m ipykernel install --user --name nlpnd --display-name "nlpnd"
 	```
 
-4. (Alternatively, you can create a Anaconda environment and python packages from a yaml file:)
+#### Option B:
+Alternatively, you can create a Anaconda environment and python packages from a yaml file:
   ```
   conda env create -f hmm-tagger.yaml
   source activate hmm-tagger
