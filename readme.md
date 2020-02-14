@@ -33,10 +33,10 @@ To set up your python environment to run the code in this repository, follow the
 
 #### Option B:
 Alternatively, you can create a Anaconda environment and python packages from a yaml file:
-  ```
-  conda env create -f hmm-tagger.yaml
-  source activate hmm-tagger
-  ```
+    ```
+    conda env create -f hmm-tagger.yaml
+    source activate hmm-tagger
+    ```
 
 ## Evaluation
 
